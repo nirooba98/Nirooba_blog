@@ -1,13 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python blog</title>
-</head>
-<body>
-    <h1>Welcome!</h1>
-    
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Nirooba Blog</title>
+  </head>
+
+  <!--body-->
+
+  <body class="body-bg">
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nirooba</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blogs
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Mad Libs in Python</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Row1-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <img
+            src="/Images/blog-me-2.png"
+            class="rounded mx-auto d-block"
+            alt="..."
+            height="300px"
+            width="300px"
+          />
+        </div>
+
+        <div class="col-md-4 col-sm-12 bg-dark">
+          <div class="card border-dark left">
+            <img src="/Images/comments.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h2 class="card-text fs-4">Python Comments</h2>
+              <a href="#" class="btn btn-danger">Read here!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12 bg-dark">
+          <div class="card border-dark right">
+            <img src="/Images/data_types.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h2 class="card-text fs-4">Python Datatypes</h2>
+              <a href="#" class="btn btn-danger">Read here!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Row2-->
+
+      <div class="row">
+        <div class="col-md-4 col-sm-12 about">
+          <h5>Hi Everyone! I'm</h5>
+          <h2>Pon Nirooba Vanaraja.</h2>
+          <h5>A canada based software developer</h5>
+          <h3>Welcome to my blogging website!</h3>
+          <h5>Check out my Python Blog!</h5>
+          <br />
+          <a href="#" class="btn btn-danger">Click here</a>
+        </div>
+
+        <div class="col-md-4 col-sm-12 bg-dark grid-height">
+          <div class="card border-dark left">
+            <img src="/Images/mad_libs.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h2 class="card-text fs-4">Python Mad Libs</h2>
+              <a href="/pages/mad-libs.html" class="btn btn-danger"
+                >Read here!</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12 bg-dark grid-height">
+          <div class="card border-dark right">
+            <img src="/Images/install.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h2 class="card-text fs-4">Install & setup Python!</h2>
+              <a href="#" class="btn btn-danger">Read here!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+
+    <div class="container-fluid text-white bg-danger footnote">
+      <i class="fa-brands fa-github"></i> &nbsp;
+      <i class="fa-brands fa-linkedin"></i> &nbsp;
+      <i class="fa-solid fa-user"></i> &nbsp;
+      <i class="fa-solid fa-envelope"></i>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

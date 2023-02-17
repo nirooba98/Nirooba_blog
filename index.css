@@ -1,0 +1,84 @@
+/* Index page */
+h2, h3, h1, h4, h6, p{
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+  background-color: white
+ 
+
+}
+
+/* left column in grid */
+
+.left{
+    margin-left: 100px;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* right column in grid */
+
+.right{
+    margin-left: 50px;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* page height */
+
+.grid-height{
+height: 600px;
+
+}
+
+/* text in left column */
+
+.about{
+    text-align: center;
+}
+
+/* left column 'click here' button */
+
+.click-here{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* footer */
+
+.footnote{
+text-align: center;
+}
+
+/* End of index page */
+
+
+                                        /* Python MAD LIBS */
+
+.text-area{
+   padding: 30px;
+}
+.text-spacing{
+    margin-bottom: 10px;
+}
+.parah-spacing{
+    margin-top: 30px;
+    
+}
+.blog-img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+li{
+    margin: 5px;
+}
+.cover-bg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFDE5A;
+}
