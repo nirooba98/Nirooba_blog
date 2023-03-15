@@ -1,6 +1,14 @@
 /* Index page */
-h2, h3, h1, h4, h6, p{
-    font-family: 'Comfortaa', cursive;
+ p,h4,h5,h6,li{
+   
+font-family: 'Lora', serif;
+
+}
+
+h1,h3,h2{
+   
+font-family: 'Gloock', serif;
+
 }
 
 body{
@@ -81,4 +89,14 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #FFDE5A;
+}
+
+/* Python variables */
+
+.page{
+    margin-top: 20px;
+}
+.tab{
+    margin-left: 200px;
+  
 }
